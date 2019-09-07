@@ -39,4 +39,6 @@ Untuk menjalankan soal ini silahkan ganti parameter pada fungsi `count_handshake
 Untuk menjalankan soal ini saya mengetesnya menggunakan terminal dengan SQLite
 
 ## Soal Nomor 7
-On Progress
+Berikut tampilan preview untuk nomor 7
+![alt text][tampilan]
+[tampilan]: https://github.com/rendiwijiatmoko/DumbWay/soal7.png "Preview soal no.7"

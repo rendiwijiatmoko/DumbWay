@@ -1,5 +1,5 @@
 function isPasswordValid(password){ 
-    let required = /^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&_*])[a-zA-Z0-9!@#$%^&_*]/;
+    let required = /(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&_*])/;
 
     if((password.match(required)) && (password.length >= 8)) {
         console.log('true');
@@ -8,4 +8,4 @@ function isPasswordValid(password){
     }
 }
 
-isPasswordValid("123qwer_");
+isPasswordValid("123Qwer_");
